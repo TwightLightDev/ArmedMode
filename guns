@@ -24,4 +24,6 @@ pistol:
   special:
     can-pierce: false
     effect: CRIT
+    shoot-sound: ARROW_HIT
+    hit-sound: ARROW_HIT
   
