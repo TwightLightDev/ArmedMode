@@ -1,0 +1,6 @@
+Language: en
+In-game-settings:
+  Allow-multiple-guns-per-type: false
+  Use-exp-bar: true
+  Packet-based: true
+  
