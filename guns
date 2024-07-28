@@ -1,0 +1,27 @@
+#You can create as many guns as you want!
+#But you must give them an unique id!
+
+pistol:
+  isDefault: true
+  build:
+    Material: WOOD_HOE
+    Name: &aPistol
+    Lore: 
+    - '&8• Clip Ammo: &a{ammo}'
+    - '&8• Damage: &a6.0 HP'
+    - '&8• Max Clip Ammo: 6'
+    - '&8• Fire Rate: &a0.6s'
+    - '&8• Reload: &a3s'
+    - '&8• Range: &a40'
+    Flags:
+    - HIDE_ATTRIBUTES
+  stats:
+    damage: 6.0
+    max-clip-ammo: 6
+    fire-rate: 0.6
+    reload: 3
+    range: 40
+  special:
+    can-pierce: false
+    effect: CRIT
+  
