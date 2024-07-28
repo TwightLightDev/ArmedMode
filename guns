@@ -5,12 +5,12 @@ pistol:
   isDefault: true
   build:
     Material: WOOD_HOE
-    Name: &aPistol
+    Name: '&aPistol'
     Lore: 
     - ''
     - '&7• Clip Ammo: &a{ammo}'
     - '&7• Damage: &a6.0 HP'
-    - '&7• Max Clip Ammo: 6'
+    - '&7• Max Clip Ammo: &a6'
     - '&7• Fire Rate: &a0.6s'
     - '&7• Reload: &a3s'
     - '&7• Range: &a40'
