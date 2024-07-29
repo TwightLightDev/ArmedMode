@@ -5,7 +5,7 @@ pistol:
   isDefault: true
   build:
     Material: WOOD_HOE
-    Name: '&aPistol'
+    Name: '&cPistol'
     Lore: 
     - ''
     - '&7• Clip Ammo: &a{ammo}'
