@@ -3,7 +3,6 @@ In-game-settings:
   Allow-multiple-guns-per-type: false
   Use-exp-bar: true
   Packet-based: true
-
 Menu-item:
     Material: WOOD_HOE
     Name: '&aGuns'
@@ -11,5 +10,8 @@ Menu-item:
     - '&eClick to view!'
     Flags:
     - HIDE_ATTRIBUTES
+Enable-group:
+- 'Armed'
+- 'Solo'
 
   
