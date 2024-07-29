@@ -3,7 +3,9 @@ In-game-settings:
   Allow-multiple-guns-per-type: false
   Use-exp-bar: true
   Packet-based: true
-Menu-item:
+Shop-category:
+  title: '&8Guns'
+  item:
     Material: WOOD_HOE
     Name: '&aGuns'
     Lore: 
