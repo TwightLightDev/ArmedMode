@@ -1,8 +1,11 @@
 Language: en
 In-game-settings:
   Allow-multiple-guns-per-type: false
-  Use-exp-bar: true
+  Use-exp-bar:
+    Level-number: true
+    Level-progress: true
   Packet-based: true
+  Make-default-gun-droppable: false
 Shop-category:
   title: '&8Guns'
   item:
