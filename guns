@@ -113,7 +113,7 @@ magnum:
     hit-sound: ARROW_HIT
   shop:
     buyable: true
-    slot: 10
+    slot: 18
     currency: GOLD_INGOT
     amount: 6
     shop-display:
