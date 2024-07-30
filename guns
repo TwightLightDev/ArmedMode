@@ -17,26 +17,26 @@ pistol:
     Lore: 
     - ''
     - '&7• Clip Ammo: &a{ammo}'
-    - '&7• Damage: &a3.0 HP'
+    - '&7• Damage: &a4.0 HP'
     - '&7• Max Clip Ammo: &a12'
-    - '&7• Fire Rate: &a0.6s'
-    - '&7• Reload: &a3s'
-    - '&7• Range: &a40'
+    - '&7• Fire Rate: &a0.4s'
+    - '&7• Reload: &a1.5s'
+    - '&7• Range: &a30'
     - ''
     Flags:
     - HIDE_ATTRIBUTES
   #This section is where you define how strong this gun is!
   stats:
     #Damage dealt per shot!
-    damage: 3.0
+    damage: 4.0
     #The maximum amount of ammunition this gun can carry!
     max-clip-ammo: 12
     #The time player have to wait before this gun can be usable again in ticks! (1 second = 20 ticks)
-    fire-rate: 6
+    fire-rate: 8
     #The time it takes for this gun to reload the entire ammunition clip in ticks
-    reload: 60
-    #The maximum range this gun can shoot!
-    range: 40
+    reload: 30
+    #The maximum range this gun can shoot in blocks!
+    range: 30
   #This section is where you define some special attributes of this gun and make it unique!
   special:
     #Can this gun shot though walls, players.
@@ -73,10 +73,59 @@ pistol:
       Lore: 
       - ''
       - '&7• Clip Ammo: &a0'
-      - '&7• Damage: &a3.0 HP'
+      - '&7• Damage: &a4.0 HP'
       - '&7• Max Clip Ammo: &a12'
+      - '&7• Fire Rate: &a0.4s'
+      - '&7• Reload: &a1.5s'
+      - '&7• Range: &a30'
+      - ''
+      - '&7Cost: &f{cost} {currency}'
+      - '{buy_status}'
+      Flags:
+      - HIDE_ATTRIBUTES
+
+Magnum:
+  isDefault: false
+  build:
+    Material: STONE_HOE
+    Name: '&6Magnum'
+    Lore: 
+    - ''
+    - '&7• Clip Ammo: &a{ammo}'
+    - '&7• Damage: &a6.0 HP'
+    - '&7• Max Clip Ammo: &a6'
+    - '&7• Fire Rate: &a0.6s'
+    - '&7• Reload: &a3.0s'
+    - '&7• Range: &a40'
+    - ''
+    Flags:
+    - HIDE_ATTRIBUTES
+  stats:
+    damage: 6.0
+    max-clip-ammo: 6
+    fire-rate: 12
+    reload: 60
+    range: 40
+  special:
+    can-pierce: false
+    effect: CRIT
+    shoot-sound: ARROW_HIT
+    hit-sound: ARROW_HIT
+shop:
+    buyable: false
+    slot: 0
+    currency: IRON_INGOT
+    amount: 0
+    shop-display:
+      Material: WOOD_HOE
+      Name: '{color}Pistol'
+      Lore: 
+      - ''
+      - '&7• Clip Ammo: &a0'
+      - '&7• Damage: &a6.0 HP'
+      - '&7• Max Clip Ammo: &a6'
       - '&7• Fire Rate: &a0.6s'
-      - '&7• Reload: &a3s'
+      - '&7• Reload: &a3.0s'
       - '&7• Range: &a40'
       - ''
       - '&7Cost: &f{cost} {currency}'
