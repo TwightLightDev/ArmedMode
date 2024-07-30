@@ -117,6 +117,7 @@ magnum:
     slot: 19
     currency: GOLD_INGOT
     amount: 6
+    msgName: Magnum
     shop-display:
       Material: STONE_HOE
       Name: '{color}Pistol'
