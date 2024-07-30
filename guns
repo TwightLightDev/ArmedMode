@@ -111,7 +111,7 @@ magnum:
     effect: CRIT
     shoot-sound: ARROW_HIT
     hit-sound: ARROW_HIT
-shop:
+  shop:
     buyable: true
     slot: 10
     currency: GOLD_INGOT
