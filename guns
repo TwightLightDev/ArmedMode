@@ -13,7 +13,7 @@ pistol:
   #...
   build:
     Material: WOOD_HOE
-    Name: '&cPistol'
+    Name: '&6Pistol'
     Lore: 
     - ''
     - '&7• Clip Ammo: &a{ammo}'
@@ -56,4 +56,32 @@ pistol:
     #- FIRE
     effects:
     - 'STATUS:FIRE:3'
+  #This section is where you define about this gun on shop
+  shop:
+    #Auto 'false' if isDefault = 'true'. If buyable is 'false', you don't need to care about this section anymore!
+    buyable: false
+    #Slot for this gun in shop
+    slot: 0
+    #This gun can buy by
+    currency: IRON
+    #How much you need to by this
+    amount: 0
+    #On shop display
+    shop-display:
+      Material: WOOD_HOE
+      Name: '&cPistol'
+      Lore: 
+      - ''
+      - '&7• Clip Ammo: &a{ammo}'
+      - '&7• Damage: &a3.0 HP'
+      - '&7• Max Clip Ammo: &a12'
+      - '&7• Fire Rate: &a0.6s'
+      - '&7• Reload: &a3s'
+      - '&7• Range: &a40'
+      - ''
+      - '%BuyStatus%'
+      - '%price%'
+      Flags:
+      - HIDE_ATTRIBUTES
+
   
