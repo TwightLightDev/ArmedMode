@@ -112,12 +112,12 @@ Magnum:
     shoot-sound: ARROW_HIT
     hit-sound: ARROW_HIT
 shop:
-    buyable: false
-    slot: 0
-    currency: IRON_INGOT
-    amount: 0
+    buyable: true
+    slot: 10
+    currency: GOLD_INGOT
+    amount: 6
     shop-display:
-      Material: WOOD_HOE
+      Material: STONE_HOE
       Name: '{color}Pistol'
       Lore: 
       - ''
