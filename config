@@ -1,6 +1,5 @@
 Language: en
 In-game-settings:
-  Allow-multiple-guns-per-type: false
   Use-exp-bar:
     Level-number: true
     Level-progress: true
