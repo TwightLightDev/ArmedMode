@@ -63,24 +63,24 @@ pistol:
     #Slot for this gun in shop
     slot: 0
     #This gun can buy by
-    currency: IRON
+    currency: IRON_INGOT
     #How much you need to by this
     amount: 0
     #On shop display
     shop-display:
       Material: WOOD_HOE
-      Name: '&cPistol'
+      Name: '{color}Pistol'
       Lore: 
       - ''
-      - '&7• Clip Ammo: &a{ammo}'
+      - '&7• Clip Ammo: &a0'
       - '&7• Damage: &a3.0 HP'
       - '&7• Max Clip Ammo: &a12'
       - '&7• Fire Rate: &a0.6s'
       - '&7• Reload: &a3s'
       - '&7• Range: &a40'
       - ''
-      - '%BuyStatus%'
-      - '%price%'
+      - '&7Cost: &f{cost} {currency}'
+      - '{buy_status}'
       Flags:
       - HIDE_ATTRIBUTES
 
