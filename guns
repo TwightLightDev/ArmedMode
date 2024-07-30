@@ -80,6 +80,7 @@ pistol:
       - '&7• Range: &a30'
       - ''
       - '&7Cost: &f{cost} {currency}'
+      - ''
       - '{buy_status}'
       Flags:
       - HIDE_ATTRIBUTES
@@ -129,6 +130,7 @@ magnum:
       - '&7• Range: &a40'
       - ''
       - '&7Cost: &6{cost} {currency}'
+      - ''
       - '{buy_status}'
       Flags:
       - HIDE_ATTRIBUTES
