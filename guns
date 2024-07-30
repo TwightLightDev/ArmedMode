@@ -32,7 +32,7 @@ pistol:
     #The maximum amount of ammunition this gun can carry!
     max-clip-ammo: 12
     #The time player have to wait before this gun can be usable again in ticks! (1 second = 20 ticks)
-    fire-rate: 3
+    fire-rate: 6
     #The time it takes for this gun to reload the entire ammunition clip in ticks
     reload: 60
     #The maximum range this gun can shoot!
