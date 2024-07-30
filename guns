@@ -84,7 +84,7 @@ pistol:
       Flags:
       - HIDE_ATTRIBUTES
 
-Magnum:
+magnum:
   isDefault: false
   build:
     Material: STONE_HOE
