@@ -1,31 +1,59 @@
 #You can create as many guns as you want!
 #But you must give them an unique id!
 
+#This is gun's id (must be unique). 
 pistol:
+  #Set this to true whether you want to give players this gun on game start! Of course you can set more than 1 default gun!
   isDefault: true
+  #This section is where you define how this gun look like!
+  #You can add enchants to this gun by using this format:
+  #Enchantments:
+  #- '<enchant>:<level>'
+  #- '<enchant>:<level>'
+  #...
   build:
     Material: WOOD_HOE
     Name: '&cPistol'
     Lore: 
     - ''
     - '&7• Clip Ammo: &a{ammo}'
-    - '&7• Damage: &a6.0 HP'
-    - '&7• Max Clip Ammo: &a6'
+    - '&7• Damage: &a3.0 HP'
+    - '&7• Max Clip Ammo: &a12'
     - '&7• Fire Rate: &a0.6s'
     - '&7• Reload: &a3s'
     - '&7• Range: &a40'
     - ''
     Flags:
     - HIDE_ATTRIBUTES
+  #This section is where you define how strong this gun is!
   stats:
-    damage: 6.0
+    #Damage dealt per shot!
+    damage: 3.0
+    #The maximum amount of ammunition this gun can carry!
     max-clip-ammo: 12
+    #The time player have to wait before this gun can be usable again in ticks! (1 second = 20 ticks)
     fire-rate: 3
+    #The time it takes for this gun to reload the entire ammunition clip in ticks
     reload: 60
+    #The maximum range this gun can shoot!
     range: 40
+  #This section is where you define some special attributes of this gun and make it unique!
   special:
+    #Can this gun shot though walls, players.
     can-pierce: false
+    #The bullet's trail effect
     effect: CRIT
+    #The sound that you will hear on shoot
     shoot-sound: ARROW_HIT
+    #The sound you will hear when the bullet does damage
     hit-sound: ARROW_HIT
+    #The special effects that will be dealt to enemies on bullet hit
+    #You can set as many as effects you want
+    #There are 2 formats allowed:
+    #- 'STATUS:<status>:time'
+    #- 'EFFECT:<potioneffect>:<amplifier>:<time>'
+    #Currently <status> list:
+    #- FIRE
+    effects:
+    - 'STATUS:FIRE:3'
   
