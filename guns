@@ -128,7 +128,7 @@ magnum:
       - '&7• Reload: &a3.0s'
       - '&7• Range: &a40'
       - ''
-      - '&7Cost: &f{cost} {currency}'
+      - '&7Cost: &6{cost} {currency}'
       - '{buy_status}'
       Flags:
       - HIDE_ATTRIBUTES
