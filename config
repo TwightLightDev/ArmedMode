@@ -3,7 +3,6 @@ In-game-settings:
   Use-exp-bar:
     Level-number: true
     Level-progress: true
-  Packet-based: true
   Make-default-gun-droppable: false
 Shop-category:
   title: '&8Guns'
